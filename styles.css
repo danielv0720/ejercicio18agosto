@@ -1,0 +1,74 @@
+/* EStilos Generales*/
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:100 px;
+}
+
+/*color del titulo*/
+.header-color{
+  color: black;
+}
+
+/*Imagen matica*/
+.bg-matica{
+  background-image: url(.//photo-1525938504296-69ed8897e4bd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 15%;
+}
+/*contenedor formulario*/
+.bg-white{
+  background-color: white;
+}
+
+.form-container{
+  padding: 4rem;
+  width: 30%;
+  border-radius: 0.4rem;
+}
+  
+.input-container{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.input-container input{
+  border-radius: 00.4rem;
+  border: solid 0.1rem gray;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+}
+.checkbox-container{
+  margin-top: 0.5rem;
+}
+
+/*estilo boton*/
+
+.btn-login{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  }
+.btn-login button{
+  padding: 0.7rem;
+background-color: royalblue;
+border: 0;
+border-radius: 0.2rem;
+color: white;
+transition: background-color ;
+transition: padding 0.5s;
+}
+
+.btn-login button:hover{
+background-color: gray;
+padding: 1rem;
+}
+
+/*Alinear formulario*/
+.screen-from{
+  height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
